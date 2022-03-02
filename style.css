@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+.home {
+  background-color: gray;
+}
+.green-background,
+#groen {
+  background-color: green;
+}
+.red-background,
+#rood {
+  background-color: red;
+}
+.blue-background,
+#blauw {
+  background-color: blue;
+}
+.yellow-background,
+#geel {
+  background-color: yellow;
+}
+.brown-background,
+#bruin {
+  background-color: brown;
+}
+.grey-background,
+#grijs {
+  background-color: gray;
+}
+.menuButton {
+  width: fit-content;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  background-color: orange;
+  opacity: 0.6;
+}
+.menuButton:hover {
+  background-color: rebeccapurple;
+  opacity: 0.3;
+}
+.menuButton li {
+  list-style: none;
+}
+.border {
+  margin: 0.3rem;
+  background-color: black;
+  list-style: none;
+  border-radius: 6px;
+  width: 2.5rem;
+  height: 0.5rem;
+}
+.nav-sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: px;
+  height: calc(100vh - 46px);
+  padding: 0 10px;
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+}
+.nav-sidebar ul {
+  padding-top: 15px;
+  overflow: hidden;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.nav-sidebar ul li {
+  line-height: 60px;
+  list-style: none;
+  transition: all 0.3s ease-in-out;
+}
+.nav-sidebar ul li a {
+  text-align: center;
+  display: block;
+  height: 60px;
+  padding: 0 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.671);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
